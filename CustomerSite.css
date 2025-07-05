@@ -1,0 +1,339 @@
+﻿
+.dropdown-menu {
+    position: absolute;
+    margin-left: -9px !important;
+    margin-top: 4px !important;
+    width: 139px;
+}
+
+    .dropdown-menu.show {
+        display: block;
+    }
+
+        .dropdown-menu.show li {
+            margin: 15px !important;
+        }
+
+
+.warning-row {
+    background-color: #ee384e38;
+    color: black;
+}
+
+    .warning-row td {
+        font-weight: bold;
+    }
+
+.menu-content a.active {
+    background-color: #ee384e38;
+    color: #ee384e;
+}
+
+@media (max-width: 992px) {
+    .dropdown-menu {
+        width: 100%;
+        right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .dropdown-menu {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .dropdown-menu {
+        width: 100% !important;
+        right: 0 !important;
+        font-size: 12px !important;
+    }
+}
+
+.dropdown-menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    right: 0;
+    box-shadow: 0 4px 6px rgb(0 0 0 / .1);
+    text-align: right;
+}
+
+.comment-text {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 250px; /* حداکثر عرض دلخواه */
+}
+
+.menu-link {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    justify-content: end;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+/* دکمه جستجو */
+.btnStyle {
+    padding: 2px 24px;
+    font-size: 14px;
+}
+
+.pagination {
+    position: relative;
+    z-index: 1050; /* بالا‌تر از منو */
+}
+
+.myListCard {
+    width: auto;
+    margin: 0px auto
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+html {
+    font-size: 14px;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.cardBody {
+    font-weight: 600;
+    background-color: white;
+}
+
+.circleIcon {
+    color: #ee384e;
+    font-weight: 800;
+    font-size: 15px;
+    margin-left: 2px;
+}
+
+.cardHeader {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    list-style: inherit;
+}
+
+.DetailsText {
+    resize: vertical;
+    width: 100%;
+    outline: none;
+    resize: vertical;
+    width: 100%;
+    box-shadow: 1px 2px 5px 0px #0000001f;
+    border: 1px solid #0000001f;
+}
+
+.DetailsTitle {
+    font-weight: 800;
+    font-size: 16px;
+    color: #000000;
+}
+
+/* تگ‌های ریسپانسیو */
+.badge-container {
+    display: flex; /* استفاده از فلکس‌باکس */
+    flex-wrap: wrap; /* رفتن تگ‌ها به سطر جدید در صورت نیاز */
+    gap: 5px; /* فاصله بین تگ‌ها */
+    justify-content: center; /* وسط‌چین کردن تگ‌ها */
+}
+
+    .badge-container .badge {
+        margin: 2px; /* ایجاد حاشیه کوچک برای تگ‌ها */
+        font-size: 0.85rem; /* کاهش اندازه فونت برای نمایش بهتر */
+    }
+/* دکمه جستجو */
+.btnStyle {
+    padding: 2px 24px;
+    font-size: 14px;
+}
+
+/* استایل پیش‌فرض برای دکمه‌ها */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* فاصله بین دکمه‌ها */
+}
+
+/* لیست داده‌ها */
+.data-list {
+    margin-top: 20px;
+}
+
+/* دکمه افزودن */
+.btn-add {
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 2px 24px;
+}
+
+.saveUpdate {
+    width: 50%;
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.backBtn {
+    margin: 15px 0px !important;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600
+}
+
+
+.pagination {
+    position: relative;
+    z-index: 1050; /* بالا‌تر از منو */
+}
+
+/* استایل عمومی برای input */
+.inputSearch,
+.drpItem {
+    font-size: 16px; /* اندازه پیش‌فرض متن */
+    padding: 8px; /* فاصله داخلی */
+}
+
+    /* استایل عمومی برای placeholder */
+    .inputSearch::placeholder {
+        color: #888; /* رنگ پیش‌فرض برای placeholder */
+        font-size: 16px; /* اندازه پیش‌فرض placeholder */
+    }
+
+/* استایل کلی برای دکمه‌ها در action-buttons */
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* فاصله بین دکمه‌ها */
+    align-items: center; /* دکمه‌ها در مرکز */
+}
+
+    .action-buttons .btn-action {
+        display: inline-block;
+        text-align: center;
+        width: 100px; /* عرض پیش‌فرض */
+        padding: 10px; /* فضای داخلی */
+        font-size: 14px; /* اندازه فونت پیش‌فرض */
+        border-radius: 5px; /* گوشه‌های گرد */
+        border: 1px solid transparent; /* پیش‌فرض برای رنگ‌بندی */
+        transition: all 0.3s ease-in-out; /* انیمیشن تغییرات */
+    }
+
+/* رنگ‌بندی دکمه‌ها */
+.btn-action.btn-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+    background-color: transparent;
+}
+
+    .btn-action.btn-danger:hover {
+        color: #fff;
+        background-color: #dc3545;
+    }
+
+.btn-action.btn-warning {
+    color: #ffc107;
+    border-color: #ffc107;
+    background-color: transparent;
+}
+
+    .btn-action.btn-warning:hover {
+        color: #fff;
+        background-color: #ffc107;
+    }
+
+.btn-action.btn-primary {
+    color: #0d6efd;
+    border-color: #0d6efd;
+    background-color: transparent;
+}
+
+    .btn-action.btn-primary:hover {
+        color: #fff;
+        background-color: #0d6efd;
+    }
+
+
+
+/* در حالت ریسپانسیو (عرض کمتر از 768px) */
+@media (max-width: 768px) {
+
+
+    .action-buttons .btn-action {
+        width: 88px; /* عرض کوچک‌تر برای موبایل */
+        font-size: 12px; /* کوچک‌تر کردن متن */
+        padding: 1px; /* کاهش فضای داخلی */
+    }
+
+    .toggle-icon {
+        top: 7px;
+        font-size: 18px;
+    }
+
+    .control-label {
+        font-size: 12px;
+    }
+
+    .form-control {
+        font-size: 12px;
+    }
+
+    .button-container {
+        flex-direction: column; /* دکمه‌ها زیر هم قرار بگیرند */
+        align-items: stretch; /* دکمه‌ها تمام عرض والد را بگیرند */
+    }
+
+    .btnStyle {
+        width: 100%; /* دکمه‌ها تمام عرض شوند */
+        text-align: center;
+    }
+}
+
+/* مدیا کوئری برای تبلت (عرض بین 768px و 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .action-buttons .btn-action {
+        width: 100px; /* عرض مناسب برای تبلت */
+        font-size: 13px; /* اندازه متن متوسط */
+        padding: 0px; /* فضای داخلی متوسط */
+    }
+}
+
+/* مدیا کوئری برای دسکتاپ (عرض بزرگ‌تر از 992px) */
+@media (min-width: 992px) {
+
+    .action-buttons .btn-action {
+        width: 114px; /* افزایش عرض برای دسکتاپ */
+        font-size: 14px; /* بزرگ‌تر کردن متن */
+        padding: 0px; /* افزایش فضای داخلی */
+    }
+}
+.badge{
+    columns: 2;
+}
