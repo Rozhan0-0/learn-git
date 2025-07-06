@@ -9,6 +9,9 @@
     .dropdown-menu.show {
         display: block;
     }
+    .backBtn{
+        stroke-width: 0ch;
+    }
 
         .dropdown-menu.show li {
             margin: 15px !important;
