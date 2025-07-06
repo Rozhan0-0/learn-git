@@ -16,7 +16,7 @@
         .dropdown-menu.show li {
             margin: 15px !important;
         }
-
+.badge{color: #000;}
 
 .warning-row {
     background-color: #ee384e38;
