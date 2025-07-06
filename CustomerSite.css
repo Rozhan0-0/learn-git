@@ -1,4 +1,6 @@
-﻿
+﻿.badge-container{align-items: center;}
+.btn-action.btn-danger{align-items: center;}
+.btn-action{align-items: center;}
 .dropdown-menu {
     position: absolute;
     margin-left: -9px !important;
